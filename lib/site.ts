@@ -40,6 +40,7 @@ export const SITEMAP_ROUTES = [
   "/about",
   "/contact",
   "/privacy",
+  "/refund",
   "/popia",
   "/terms",
   "/dpa",

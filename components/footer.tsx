@@ -26,6 +26,7 @@ const COLS: [string, FLink[]][] = [
     "Legal",
     [
       { label: "Privacy", href: "/privacy" },
+      { label: "Refund policy", href: "/refund" },
       { label: "POPIA compliance", href: "/popia" },
       { label: "Terms", href: "/terms" },
       { label: "Data processing", href: "/dpa" },

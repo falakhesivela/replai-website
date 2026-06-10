@@ -11,7 +11,7 @@ export default function TermsPage() {
   return (
     <LegalPage
       title="Terms of Service"
-      updated="19 May 2026"
+      updated="11 June 2026"
       intro="These terms govern your access to and use of the Replai platform, which is operated by Bila Automation (Pty) Ltd (registration number 2026/360669/07), a company registered in South Africa. By creating an account or using the service you agree to them."
       sections={[
         {
@@ -40,19 +40,46 @@ export default function TermsPage() {
           heading: "3. Trial and fees",
           body: (
             <p>
-              Paid plans include a free trial as described at sign-up. After
-              the trial, fees are billed in advance per your selected plan.
-              Pricing is in US Dollars. WhatsApp plans include a monthly
-              allowance of billable business messages; messages sent above
-              that allowance are billed on your Replai invoice at the per-
-              message overage rate published on the pricing page. Annual plans
-              run to the end of their term; month-to-month plans can be
-              cancelled at any time from the dashboard.
+              Paid plans include a 14-day free trial as described at sign-up and
+              on our <a href="/pricing">pricing page</a>. After the trial, fees
+              are billed in advance per your selected plan. Pricing is in US
+              Dollars. WhatsApp plans include a monthly allowance of billable
+              business messages; messages sent above that allowance are billed
+              at the per-message overage rate published on the pricing page.
+              Cancellations and refunds are described in our{" "}
+              <a href="/refund">Refund Policy</a>.
             </p>
           ),
         },
         {
-          heading: "4. Data protection",
+          heading: "4. Payments and Merchant of Record",
+          body: (
+            <>
+              <p>
+                Our order process is conducted by our online reseller
+                Paddle.com. Paddle.com is the Merchant of Record for all our
+                orders. Paddle provides all customer service inquiries and
+                handles returns.
+              </p>
+              <p>
+                Subscriptions and add-ons are billed through Paddle on a monthly
+                or annual cycle. You can manage or cancel your subscription from
+                the Replai dashboard. For refund eligibility and how to request
+                a refund, see our <a href="/refund">Refund Policy</a> and{" "}
+                <a
+                  href="https://www.paddle.com/legal/checkout-buyer-terms"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Paddle&rsquo;s buyer terms
+                </a>
+                .
+              </p>
+            </>
+          ),
+        },
+        {
+          heading: "5. Data protection",
           body: (
             <p>
               Our handling of personal information is described in our{" "}
@@ -62,7 +89,7 @@ export default function TermsPage() {
           ),
         },
         {
-          heading: "5. Availability and AI output",
+          heading: "6. Availability and AI output",
           body: (
             <p>
               We work to keep the service reliable but do not warrant
@@ -73,7 +100,7 @@ export default function TermsPage() {
           ),
         },
         {
-          heading: "6. Liability",
+          heading: "7. Liability",
           body: (
             <p>
               To the extent permitted by law, Replai&rsquo;s aggregate liability
@@ -84,7 +111,7 @@ export default function TermsPage() {
           ),
         },
         {
-          heading: "7. Termination",
+          heading: "8. Termination",
           body: (
             <p>
               Either party may terminate as set out in your plan. On
@@ -94,7 +121,7 @@ export default function TermsPage() {
           ),
         },
         {
-          heading: "8. Governing law",
+          heading: "9. Governing law",
           body: (
             <p>
               These terms are governed by the laws of the Republic of South
