@@ -64,14 +64,22 @@ export default function TermsPage() {
               <p>
                 Subscriptions and add-ons are billed through Paddle on a monthly
                 or annual cycle. You can manage or cancel your subscription from
-                the Replai dashboard. For refund eligibility and how to request
-                a refund, see our <a href="/refund">Refund Policy</a> and{" "}
+                the Replai dashboard.                 For refund eligibility and how to request a refund, see our{" "}
+                <a href="/refund">Refund Policy</a>, which follows{" "}
                 <a
-                  href="https://www.paddle.com/legal/checkout-buyer-terms"
+                  href="https://www.paddle.com/legal/refund-policy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Paddle&rsquo;s buyer terms
+                  Paddle&rsquo;s Refund Policy
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://www.paddle.com/legal/buyer-terms"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Paddle Buyer Terms
                 </a>
                 .
               </p>
